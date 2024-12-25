@@ -18,7 +18,7 @@ from utils.charts import temperature_chart
 from utils.anedya import anedya_getDeviceStatus
  
 nodeId = "0193c4dc-dfc8-7406-b798-2b4e467748ce"  # get it from anedya dashboard -> project -> node
-apiKey = ""  # aneyda project apikey
+apiKey = "8c6919dc6393085202f652fcc2273a77d2c6571ebd6aa0d51e2913b451785850"  # aneyda project apikey
 
 st.set_page_config(page_title="Anedya IoT Dashboard", layout="wide")
 
