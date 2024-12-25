@@ -10,7 +10,7 @@ from utils.anedya import anedya_config
 from utils.anedya import anedya_sendCommand
 from utils.anedya import anedya_getValue
 from utils.anedya import anedya_setValue
-from utils.anedya import fetchHumidityData
+from utils.anedya import fetchSOC
 from utils.anedya import fetchTemperatureData
 from utils.anedya import anedya_get_latestData
 from utils.charts import humidity_chart
