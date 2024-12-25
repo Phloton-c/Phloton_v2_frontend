@@ -20,7 +20,7 @@ from utils.anedya import anedya_getDeviceStatus
 nodeId = "0193c4dc-dfc8-7406-b798-2b4e467748ce"  # get it from anedya dashboard -> project -> node
 apiKey = "8c6919dc6393085202f652fcc2273a77d2c6571ebd6aa0d51e2913b451785850"  # aneyda project apikey
 
-st.set_page_config(page_title="Anedya IoT Dashboard", layout="wide")
+st.set_page_config(page_title="Phloton V2 Dashboard", layout="wide")
 
 refresh_interval = 30000
 st_autorefresh(interval=refresh_interval, limit=None, key="auto-refresh-handler")
@@ -147,7 +147,7 @@ def drawLogin():
     with cols[0]:
         pass
     with cols[1]:
-        st.title("Anedya Demo Dashboard", anchor=False)
+        st.title("Phloton V2 Dashboard", anchor=False)
         username_inp = st.text_input("Username")
         password_inp = st.text_input("Password", type="password")
         submit_button = st.button(label="Submit")
